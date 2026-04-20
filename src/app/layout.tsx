@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Noob Gains",
-  description: "The blog is retired. We are now in the lab, focusing on physical products to fuel your progress.",
+  description: "What if bulking actually tasted good?",
 };
 
 export default function RootLayout({
