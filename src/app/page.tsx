@@ -56,7 +56,7 @@ export default function Home() {
             disabled={status === "loading" || status === "success"}
             className="w-full sm:w-auto h-14 px-8 bg-[#ff5500] hover:bg-[#ff6aa1] hover:shadow-[0_0_20px_rgba(255,85,0,0.4)] text-black font-extrabold tracking-widest uppercase whitespace-nowrap rounded-xl transition-all hover:scale-105 active:scale-95 disabled:opacity-50 disabled:pointer-events-none"
           >
-            {status === "loading" ? "Sending..." : "Notify Me"}
+            {status === "loading" ? "Sending..." : "Join Waitlist"}
           </button>
         </form>
 
